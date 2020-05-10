@@ -4,7 +4,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
-<script src="./p5.play.js"></script>
+    
+    <script src="./p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDWr1gGv2-BL3s3wZySrgO7mB2TttAg7UI",
+        authDomain: "racing-car-mp.firebaseapp.com",
+        databaseURL: "https://racing-car-mp.firebaseio.com",
+        projectId: "racing-car-mp",
+        storageBucket: "racing-car-mp.appspot.com",
+        messagingSenderId: "64176031185",
+        appId: "1:64176031185:web:eb59371f76547ba228ccf0"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
